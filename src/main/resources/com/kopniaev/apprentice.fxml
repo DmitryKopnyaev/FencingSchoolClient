@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="348.0" prefWidth="726.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kopniaev.ApprenticeController">
+   <children>
+      <Label layoutX="25.0" layoutY="50.0" text="Фамилия" />
+      <Label layoutX="24.0" layoutY="92.0" text="Имя" />
+      <Label layoutX="25.0" layoutY="130.0" text="Отчество" />
+      <Label layoutX="24.0" layoutY="171.0" text="Номер телефона" />
+      <TextField fx:id="textFieldSurname" layoutX="129.0" layoutY="46.0" />
+      <TextField fx:id="textFieldName" layoutX="129.0" layoutY="88.0" />
+      <TextField fx:id="textFieldPatronimic" layoutX="129.0" layoutY="126.0" />
+      <TextField fx:id="textFieldPhoneNumber" layoutX="129.0" layoutY="167.0" />
+      <ListView fx:id="listViewListOfTrainings" layoutX="305.0" layoutY="47.0" prefHeight="200.0" prefWidth="409.0" />
+      <Label layoutX="305.0" layoutY="20.0" text="Список тренеровок:" />
+      <Button fx:id="buttonAddTraining" layoutX="307.0" layoutY="266.0" mnemonicParsing="false" onAction="#buttonAddTraining" prefHeight="25.0" prefWidth="137.0" text="Добавить тренеровку" />
+      <Button fx:id="buttonDeleteTraining" layoutX="307.0" layoutY="301.0" mnemonicParsing="false" onAction="#buttonDeleteTraining" prefHeight="25.0" prefWidth="137.0" text="Удалить тренеровку" />
+      <Button fx:id="buttonUpdateApprentice" layoutX="129.0" layoutY="211.0" mnemonicParsing="false" onAction="#buttonUpdateApprentice" prefHeight="25.0" prefWidth="149.0" text="Обновить ученика" />
+      <Button fx:id="buttonDeleteApprentice" layoutX="129.0" layoutY="254.0" mnemonicParsing="false" onAction="#buttonDeleteApprentice" prefHeight="25.0" prefWidth="149.0" text="Удалить ученика" />
+   </children>
+</AnchorPane>

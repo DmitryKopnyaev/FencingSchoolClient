@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="220.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kopniaev.AddTrainingController">
+   <children>
+      <ComboBox fx:id="comboBoxTrainers" layoutX="34.0" layoutY="33.0" onAction="#selectTrainer" prefHeight="25.0" prefWidth="494.0" />
+      <DatePicker fx:id="datePickerTraining" layoutX="34.0" layoutY="80.0" onAction="#selectDate" onMouseClicked="#onMouseClickedDate" />
+      <Button fx:id="buttonAddTraining" layoutX="34.0" layoutY="175.0" mnemonicParsing="false" onAction="#buttonAddTraining" prefHeight="25.0" prefWidth="174.0" text="Добавить тренировку" />
+      <Label layoutX="253.0" layoutY="84.0" text="Время тренировки:" />
+      <Label layoutX="253.0" layoutY="132.0" text="Номер зала:" />
+      <ComboBox fx:id="comboBoxTrainingTime" layoutX="378.0" layoutY="80.0" onAction="#selectTrainingTime" onMouseClicked="#timeTrainingMouseClicked" prefWidth="150.0" />
+      <TextField fx:id="textFieldGymNumber" layoutX="379.0" layoutY="128.0" onMouseClicked="#gymNumberMouseClicked" prefHeight="25.0" prefWidth="68.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="270.0" prefWidth="309.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kopniaev.RegistrationController">
+   <children>
+      <Label layoutX="32.0" layoutY="33.0" text="Login" />
+      <Label layoutX="32.0" layoutY="77.0" text="Password" />
+      <Label layoutX="32.0" layoutY="124.0" text="Name" />
+      <TextField fx:id="textFieldLogin" layoutX="113.0" layoutY="29.0" />
+      <TextField fx:id="textFieldPassword" layoutX="113.0" layoutY="73.0" />
+      <TextField fx:id="textFieldName" layoutX="113.0" layoutY="120.0" />
+      <Button fx:id="buttonRegistration" layoutX="113.0" layoutY="175.0" mnemonicParsing="false" onAction="#buttonRegistration" prefHeight="25.0" prefWidth="149.0" text="Зарегистрироваться" />
+      <Label fx:id="labelAuthorization" layoutX="119.0" layoutY="223.0" onMouseClicked="#labelAuthorization" text="Нажмите, чтобы войти" />
+   </children>
+</AnchorPane>

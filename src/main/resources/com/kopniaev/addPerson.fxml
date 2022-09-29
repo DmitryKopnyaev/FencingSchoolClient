@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="304.0" prefWidth="358.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kopniaev.AddPersonController">
+   <children>
+      <Label layoutX="45.0" layoutY="77.0" text="Фамилия" />
+      <Label layoutX="45.0" layoutY="117.0" text="Имя" />
+      <Label layoutX="45.0" layoutY="157.0" text="Отчество" />
+      <Label fx:id="changedLabel" layoutX="45.0" layoutY="203.0" text="Номер телефона" />
+      <TextField fx:id="textFieldSurname" layoutX="152.0" layoutY="73.0" />
+      <TextField fx:id="textFieldName" layoutX="152.0" layoutY="113.0" />
+      <TextField fx:id="textFieldPatronimic" layoutX="152.0" layoutY="153.0" />
+      <TextField fx:id="textFieldPhoneNumber" layoutX="152.0" layoutY="199.0" />
+      <RadioButton fx:id="radioButtonTrainer" layoutX="45.0" layoutY="35.0" mnemonicParsing="false" onAction="#trainerSelected" text="Тренер" />
+      <RadioButton fx:id="radioButtonApprentice" layoutX="152.0" layoutY="35.0" mnemonicParsing="false" onAction="#apprenticeSelected" text="Ученик" />
+      <Button fx:id="buttonCreate" layoutX="152.0" layoutY="245.0" mnemonicParsing="false" onAction="#buttonCreate" prefHeight="25.0" prefWidth="149.0" text="Создать" />
+   </children>
+</AnchorPane>

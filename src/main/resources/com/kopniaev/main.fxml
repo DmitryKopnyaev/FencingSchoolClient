@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="984.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kopniaev.MainController">
+   <children>
+      <Label fx:id="labelWelcome" layoutX="22.0" layoutY="26.0" text="Добро пожаловать" />
+      <Button fx:id="buttonDeleteUser" layoutX="24.0" layoutY="59.0" mnemonicParsing="false" onAction="#buttonDeleteUser" prefHeight="25.0" prefWidth="149.0" text="Удалить пользователя" />
+      <Button fx:id="buttonExit" layoutX="190.0" layoutY="59.0" mnemonicParsing="false" onAction="#buttonExit" prefHeight="25.0" prefWidth="149.0" text="Выйти" />
+      <Label layoutX="22.0" layoutY="111.0" text="Список учеников" />
+      <ListView fx:id="listViewApprentices" layoutX="24.0" layoutY="138.0" prefHeight="200.0" prefWidth="463.0" />
+      <Label layoutX="501.0" layoutY="111.0" text="Список тренеров" />
+      <ListView fx:id="listViewTrainers" layoutX="501.0" layoutY="138.0" prefHeight="200.0" prefWidth="463.0" />
+      <Button fx:id="buttonAdd" layoutX="422.0" layoutY="353.0" mnemonicParsing="false" onAction="#buttonAdd" prefHeight="25.0" prefWidth="141.0" text="Добавить" />
+   </children>
+</AnchorPane>
